@@ -11,19 +11,25 @@
     <%= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <nav class="navbar navbar-expand-lg navbar-lewagon">
       <div class="container">
-        <a class="navbar-brand" href="/">My Crazy Ideas</a>
+        <a class="navbar-brand" href="/">LOGO WILL GO HERE</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="/ideas">Ideas</a>
+              <a href="/pages/home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/pages/info">Info</a>
+              <a href="/pages/services">Serviços</a></a>
+            </li>
+            <li class="nav-item">
+              <a href="/pages/about">Sobre RGTarget</a>
+            </li>
+            <li class="nav-item">
+              <a href="/pages/contact">Contato</a>
             </li>
           </ul>
         </div>
@@ -32,10 +38,15 @@
     <div class="container">
       <%= yield %>
     </div>
-    <footer>
-      <div class="container">
-        Rails Girls <%= Time.now.year %>
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
       </div>
+        <div class="footer-target">
+           <%= Time.now.year %> Todos os direitos reservados | TA<span id="footer">RG</span>ET
+        </div>
     </footer>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
