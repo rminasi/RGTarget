@@ -1,7 +1,26 @@
 .card-main {
-width: 100%;
-
+  margin-top: 85px;
+  width: 100%;
+  display: flex;
 }
 .card {
-width: 40vh;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  // box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+  width: 30vw;
+  height: 50vh;
+  position: relative;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+  .fas {
+    padding-right: 10px;
+    font-size: 32px;
+  }
 }
+
