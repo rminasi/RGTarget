@@ -2124,3 +2124,17 @@ Processing by PagesController#contact as HTML
 Completed 200 OK in 1079ms (Views: 1077.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/contact" for ::1 at 2019-11-20 19:46:14 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 982ms (Views: 981.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-20 19:47:58 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 985ms (Views: 983.8ms | ActiveRecord: 0.0ms)
+
+
