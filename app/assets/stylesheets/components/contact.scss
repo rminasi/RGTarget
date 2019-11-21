@@ -4,9 +4,24 @@
 }
 .aboutus {
   width: 50%;
-  border-style: 1px solid #f4f7f8;
+  background: #f4f7f8;
+  // border: 1px solid #dddddd;
+  margin: 20px;
+  padding: 20px;
 }
-.fas {
+.fas.fa-phone {
+  color: $warning;
+  padding-right: 10px;
+}
+.fas.fa-map-marker-alt {
+  color: $warning;
+  padding-right: 10px;
+  position:absolute;
+  left: 181px;
+  top: 184px;
+  font-size: 42px;
+}
+.fas.fa-envelope-open-text {
   color: $warning;
   padding-right: 10px;
 }
