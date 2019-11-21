@@ -2898,3 +2898,246 @@ Processing by PagesController#contact as HTML
 Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:20:54 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered pages/_navbar.html.erb (0.3ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:24:07 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered pages/_navbar.html.erb (0.6ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 1190ms (Views: 1188.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:28:19 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.3ms)
+  Rendered pages/_navbar.html.erb (0.3ms)
+  Rendered pages/_footer.html.erb (0.3ms)
+Completed 200 OK in 1142ms (Views: 1140.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:28:33 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered pages/_navbar.html.erb (0.3ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:29:15 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered pages/_navbar.html.erb (0.4ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:29:23 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered pages/_navbar.html.erb (0.3ms)
+  Rendered pages/_footer.html.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:29:44 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered pages/_navbar.html.erb (0.4ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:30:00 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.3ms)
+  Rendered pages/_navbar.html.erb (0.4ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 1082ms (Views: 1081.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:30:39 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered pages/_navbar.html.erb (0.6ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 977ms (Views: 976.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:30:46 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.3ms)
+  Rendered pages/_navbar.html.erb (0.5ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 999ms (Views: 997.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:33:10 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered pages/_navbar.html.erb (0.4ms)
+  Rendered pages/_footer.html.erb (0.3ms)
+Completed 200 OK in 1160ms (Views: 1158.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:33:35 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.3ms)
+  Rendered pages/_navbar.html.erb (0.3ms)
+  Rendered pages/_footer.html.erb (0.3ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:34:26 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered pages/_navbar.html.erb (0.9ms)
+  Rendered pages/_footer.html.erb (0.2ms)
+Completed 200 OK in 1127ms (Views: 1125.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:34:52 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered pages/_navbar.html.erb (0.5ms)
+  Rendered pages/_footer.html.erb (0.2ms)
+Completed 200 OK in 941ms (Views: 939.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:36:25 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered pages/_navbar.html.erb (0.3ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:36:51 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.3ms)
+  Rendered pages/_navbar.html.erb (0.3ms)
+  Rendered pages/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:38:28 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered pages/_navbar.html.erb (0.4ms)
+  Rendered pages/_footer.html.erb (0.3ms)
+Completed 200 OK in 1060ms (Views: 1058.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:40:46 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (2.6ms)
+  Rendered pages/_navbar.html.erb (0.7ms)
+  Rendered pages/_footer.html.erb (1.1ms)
+Completed 200 OK in 1212ms (Views: 1208.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:43:06 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered pages/_navbar.html.erb (0.5ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 1171ms (Views: 1168.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:48:07 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered pages/_navbar.html.erb (0.7ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 1226ms (Views: 1225.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:48:45 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered pages/_navbar.html.erb (0.5ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 998ms (Views: 997.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:48:58 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.3ms)
+  Rendered pages/_navbar.html.erb (0.3ms)
+  Rendered pages/_footer.html.erb (0.2ms)
+Completed 200 OK in 960ms (Views: 959.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:49:40 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.3ms)
+  Rendered pages/_navbar.html.erb (0.4ms)
+  Rendered pages/_footer.html.erb (0.2ms)
+Completed 200 OK in 967ms (Views: 965.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:50:00 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered pages/_navbar.html.erb (0.4ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 1037ms (Views: 1036.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:51:31 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.7ms)
+  Rendered pages/_navbar.html.erb (0.5ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 1192ms (Views: 1191.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:53:08 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.9ms)
+  Rendered pages/_navbar.html.erb (0.5ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 1113ms (Views: 1111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-11-21 21:53:40 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered pages/_navbar.html.erb (0.5ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 1011ms (Views: 1009.6ms | ActiveRecord: 0.0ms)
+
+

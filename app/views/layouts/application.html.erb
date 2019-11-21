@@ -40,7 +40,9 @@
   </head>
   <body>
     <%= render 'pages/navbar' %>
+    <div class="container">
       <%= yield %>
+    </div>
     <%= render 'pages/footer' %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
