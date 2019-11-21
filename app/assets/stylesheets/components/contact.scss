@@ -1,3 +1,15 @@
+.contactus {
+  width: 95%;
+  display: flex;
+}
+.aboutus {
+  width: 50%;
+  border-style: 1px solid #f4f7f8;
+}
+.fas {
+  color: $warning;
+  padding-right: 10px;
+}
 .form-style-5{
   max-width: 500px;
   padding: 10px 20px;
@@ -62,7 +74,7 @@
   -webkit-appearance: menulist-button;
   height:35px;
 }
-.form-style-5 .number {
+.number {
   background: #FF8C00;
   color: #fff;
   height: 30px;
@@ -83,18 +95,4 @@ input[type="submit"] {
   text-transform: uppercase;
   font-weight: 400;
 }
-// input[type="text"]{
-//   position: absolute;
-//   left: 0;
 
-//    ::placeholder {
-//      color: rgba(0,0,0,0.3);
-//    }
-// }
-// p {
-//   padding-left: 10px;
-// }
-// label {
-//   margin-top: 15px;
-//   margin-left: 15px;
-// }
