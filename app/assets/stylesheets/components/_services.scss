@@ -1,6 +1,38 @@
-.carousel-item{
-    height: 500px;
+.carousel {
+    position: relative;
+
 }
-.carousel-item img{
-    height: 500px;
+.carousel-inner {
+    position: absolute;
+    left: 180px;
+    top: 80px;
+    width: 70%;
+    height: 300px;
+    overflow: hidden;
+}
+.carousel-item{
+  position: absolute;
+  left: 180px;
+  top: 80px;
+  width: 70%;
+  height: 300px;
+  overflow: hidden;
+}
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 220px;
+    bottom: 0;
+    z-index: 1;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.15s ease;
+    transition: opacity 0.15s ease;
 }
