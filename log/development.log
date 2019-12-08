@@ -4464,3 +4464,196 @@ Processing by PagesController#about as HTML
 Completed 200 OK in 1007ms (Views: 1005.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-12-08 19:38:18 +0000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+  Rendered pages/_chat.html.erb (0.3ms)
+  Rendered pages/_navbar.html.erb (0.3ms)
+  Rendered pages/_footer.html.erb (0.5ms)
+Completed 200 OK in 221ms (Views: 219.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-12-08 20:00:53 +0000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 180ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "  color:": expected expression (e.g. 1px, bold), was "}"
+        on line 7:9 of app/assets/stylesheets/components/about.scss
+        from line 10:1 of app/assets/stylesheets/components/_index.scss
+        from line 12:1 of app/assets/stylesheets/application.scss
+>>   color:
+
+   --------^
+):
+     7:     <%= csrf_meta_tags %>
+     8:     <%= action_cable_meta_tag %>
+     9:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    10:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    11:     <%= stylesheet_pack_tag 'application', media: 'all' %>
+    12:     <!-- Start of Async Drift Code -->
+    13:     <%= render 'pages/chat' %>
+  
+app/assets/stylesheets/components/about.scss:7
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__3014201589155891236_70307369039580'
+Started GET "/" for ::1 at 2019-12-08 20:01:18 +0000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered pages/_chat.html.erb (0.4ms)
+  Rendered pages/_navbar.html.erb (0.3ms)
+  Rendered pages/_footer.html.erb (0.5ms)
+Completed 200 OK in 1440ms (Views: 1438.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/services" for ::1 at 2019-12-08 20:01:32 +0000
+Processing by PagesController#services as HTML
+  Rendering pages/services.html.erb within layouts/application
+  Rendered pages/services.html.erb within layouts/application (0.4ms)
+  Rendered pages/_chat.html.erb (0.3ms)
+  Rendered pages/_navbar.html.erb (0.2ms)
+  Rendered pages/_footer.html.erb (0.2ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2019-12-08 20:01:35 +0000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered pages/_chat.html.erb (0.2ms)
+  Rendered pages/_navbar.html.erb (0.8ms)
+  Rendered pages/_footer.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2019-12-08 20:05:13 +0000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.8ms)
+  Rendered pages/_chat.html.erb (0.5ms)
+  Rendered pages/_navbar.html.erb (0.3ms)
+  Rendered pages/_footer.html.erb (0.4ms)
+Completed 200 OK in 1285ms (Views: 1283.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2019-12-08 20:09:40 +0000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+  Rendered pages/_chat.html.erb (0.4ms)
+  Rendered pages/_navbar.html.erb (0.3ms)
+  Rendered pages/_footer.html.erb (0.3ms)
+Completed 200 OK in 1111ms (Views: 1110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2019-12-08 20:09:55 +0000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered pages/_chat.html.erb (0.3ms)
+  Rendered pages/_navbar.html.erb (0.3ms)
+  Rendered pages/_footer.html.erb (1.0ms)
+Completed 200 OK in 41ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2019-12-08 20:11:19 +0000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered pages/_chat.html.erb (0.3ms)
+  Rendered pages/_navbar.html.erb (0.9ms)
+  Rendered pages/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2019-12-08 20:18:41 +0000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.1ms)
+  Rendered pages/_chat.html.erb (1.0ms)
+  Rendered pages/_navbar.html.erb (1.1ms)
+  Rendered pages/_footer.html.erb (1.8ms)
+Completed 200 OK in 85ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for ::1 at 2019-12-08 20:18:44 +0000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+  Rendered pages/_chat.html.erb (0.3ms)
+  Rendered pages/_navbar.html.erb (0.2ms)
+  Rendered pages/_footer.html.erb (1.0ms)
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2019-12-08 20:18:45 +0000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.9ms)
+  Rendered pages/_chat.html.erb (1.8ms)
+  Rendered pages/_navbar.html.erb (0.4ms)
+  Rendered pages/_footer.html.erb (1.5ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact?field1=Raquel+Tremper+Minasi&field2=raquelminasi%40gmail.com&field4=Marketing&field3=adsad" for ::1 at 2019-12-08 20:22:21 +0000
+Processing by PagesController#contact as HTML
+  Parameters: {"field1"=>"Raquel Tremper Minasi", "field2"=>"raquelminasi@gmail.com", "field4"=>"Marketing", "field3"=>"adsad"}
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered pages/_chat.html.erb (0.4ms)
+  Rendered pages/_navbar.html.erb (0.3ms)
+  Rendered pages/_footer.html.erb (0.3ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3673728507076574940)[0m
+  ↳ bin/rails:9
+  [1m[35m (5.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateContacts (20191208202923)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (36.8ms)[0m  [1m[35mCREATE TABLE "contacts" ("id" bigserial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20191208202923_create_contacts.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191208202923"]]
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(3673728507076574940)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3673728507076574940)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateContacts (20191208202923)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (16.9ms)[0m  [1m[35mDROP TABLE "contacts"[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.4ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20191208202923"]]
+  ↳ bin/rails:9
+  [1m[35m (7.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(3673728507076574940)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
